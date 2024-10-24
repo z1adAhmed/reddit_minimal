@@ -1,0 +1,49 @@
+.post {
+  border: 1px solid #eaeaea; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  margin: 20px auto; /* Center horizontally with automatic margins */
+  padding: 15px; /* Padding inside the post */
+  max-width: 800px; /* Set a maximum width for the post */
+  transition: box-shadow 0.2s; /* Smooth transition for hover effect */
+  text-align: center; /* Center align all text within the post */
+}
+
+.post:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.post h3 {
+  margin: 0 0 10px; /* Margin adjustments */
+  font-size: 1.5em; /* Larger title */
+  color: #333; /* Dark gray color for text */
+}
+
+.post-image,
+.post-video {
+  max-width: 50%; /* Allow images and videos to fill up to the parent width */
+  width: 50%; /* Full width for the image/video */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for images/videos */
+  margin: 0 auto 15px; /* Center align with automatic margins and space below */
+  display: block; /* Make them block elements */
+}
+
+.post p {
+  font-size: 1em; /* Standard text size */
+  color: #555; /* Medium gray for text */
+  line-height: 1.5; /* Improved line spacing */
+}
+
+.post a {
+  display: inline-block; /* Make link an inline block for better spacing */
+  margin-top: 10px; /* Space above the link */
+  text-decoration: none; /* No underline */
+  color: #0073e6; /* Link color */
+  font-weight: bold; /* Bold text for emphasis */
+}
+
+.post a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
